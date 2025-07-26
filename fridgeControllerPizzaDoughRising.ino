@@ -42,9 +42,9 @@ unsigned long startGetTemperatures, endGetTemperatures;
 unsigned int fridgeFanPin = 6;
 unsigned int fridgeRelayPin = 12;
 
-float setPointTemperature = 26.0;
-float lowerLimit = 24.0;
-float upperLimit = 28.0;
+float lowerLimit = 16.0;
+float setPointTemperature = 18.0;
+float upperLimit = 20.0;
 
 int hysteresisCycleState = 0; // 0 = fridge not active 1 = fridge active
 
